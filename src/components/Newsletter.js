@@ -30,15 +30,15 @@ const Newsletter = () => {
                     <h2 className='text-5xl font-bold text-black mb-5'>Stay Updated!</h2>
                     <p className='text-para mb-5'>Join 60,000+ product managers receiving monthly updates on:</p>
                     <ul className='space-y-3 mb-10'>
-                        <li className='flex items-center gap-4 font-semibold text-DarkSlateGrey'>
+                        <li className='flex items-center gap-4 font-medium text-DarkSlateGrey'>
                             <img src={logo} alt="" />
                             <span>Product discovery and building what matters</span>
                         </li>
-                        <li className='flex items-center gap-4 font-semibold text-DarkSlateGrey'>
+                        <li className='flex items-center gap-4 font-medium text-DarkSlateGrey'>
                             <img src={logo} alt="" />
                             <span>Measuring to ensure updates are a success</span>
                         </li>
-                        <li className='flex items-center gap-4 font-semibold text-DarkSlateGrey'>
+                        <li className='flex items-center gap-4 font-medium text-DarkSlateGrey'>
                             <img src={logo} alt="" />
                             <span>And much more!</span>
                         </li>
